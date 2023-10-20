@@ -18,7 +18,7 @@ struct RegisterView: View {
                 
                 // Login Form
                 Form{
-                    TextField("Your Name Address" , text: $registerViewModel.name)
+                    TextField("Your Name" , text: $registerViewModel.name)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocorrectionDisabled()
                     

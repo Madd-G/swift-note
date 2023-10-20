@@ -12,7 +12,7 @@ struct MainView: View {
     
     var body: some View {
         if viewModel.isSignedIn, !viewModel.currentuserId.isEmpty {
-         HomeView()
+         HomeView(userId: viewModel.currentuserId)
         } else {
             LoginView()
         }

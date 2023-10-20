@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1DEF9A2AE21E0E0060F920 /* NoteListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DEF992AE21E0E0060F920 /* NoteListItemView.swift */; };
+		4E1DEF9C2AE21E1F0060F920 /* NoteListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DEF9B2AE21E1F0060F920 /* NoteListItemViewModel.swift */; };
+		4E1DEF9E2AE21E340060F920 /* NewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DEF9D2AE21E340060F920 /* NewNoteView.swift */; };
+		4E1DEFA02AE21E8D0060F920 /* NewNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DEF9F2AE21E8D0060F920 /* NewNoteViewModel.swift */; };
+		4E1DEFA62AE223420060F920 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1DEFA52AE223420060F920 /* ProfileView.swift */; };
 		4E6F9B292AE1494A0034C7A8 /* SwiftNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F9B282AE1494A0034C7A8 /* SwiftNoteApp.swift */; };
 		4E6F9B2B2AE1494A0034C7A8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F9B2A2AE1494A0034C7A8 /* MainView.swift */; };
 		4E6F9B2D2AE1494B0034C7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6F9B2C2AE1494B0034C7A8 /* Assets.xcassets */; };
@@ -54,6 +59,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E1DEF992AE21E0E0060F920 /* NoteListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListItemView.swift; sourceTree = "<group>"; };
+		4E1DEF9B2AE21E1F0060F920 /* NoteListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListItemViewModel.swift; sourceTree = "<group>"; };
+		4E1DEF9D2AE21E340060F920 /* NewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteView.swift; sourceTree = "<group>"; };
+		4E1DEF9F2AE21E8D0060F920 /* NewNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewModel.swift; sourceTree = "<group>"; };
+		4E1DEFA52AE223420060F920 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4E6F9B252AE1494A0034C7A8 /* SwiftNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6F9B282AE1494A0034C7A8 /* SwiftNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoteApp.swift; sourceTree = "<group>"; };
 		4E6F9B2A2AE1494A0034C7A8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -175,6 +185,8 @@
 				4E6F9B422AE14CBE0034C7A8 /* LoginViewModel.swift */,
 				4E6F9B852AE1572C0034C7A8 /* HomeViewModel.swift */,
 				4E6F9B872AE158840034C7A8 /* RegisterViewModel.swift */,
+				4E1DEF9B2AE21E1F0060F920 /* NoteListItemViewModel.swift */,
+				4E1DEF9F2AE21E8D0060F920 /* NewNoteViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -188,6 +200,9 @@
 				4E6F9B812AE155860034C7A8 /* LoginHeader.swift */,
 				4E6F9B832AE157130034C7A8 /* HomeView.swift */,
 				4E6F9B892AE158900034C7A8 /* RegisterView.swift */,
+				4E1DEF992AE21E0E0060F920 /* NoteListItemView.swift */,
+				4E1DEF9D2AE21E340060F920 /* NewNoteView.swift */,
+				4E1DEFA52AE223420060F920 /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +313,8 @@
 				4E6F9B3D2AE14A750034C7A8 /* Note.swift in Sources */,
 				4E6F9B3B2AE14A660034C7A8 /* User.swift in Sources */,
 				4E6F9B2B2AE1494A0034C7A8 /* MainView.swift in Sources */,
+				4E1DEFA02AE21E8D0060F920 /* NewNoteViewModel.swift in Sources */,
+				4E1DEF9C2AE21E1F0060F920 /* NoteListItemViewModel.swift in Sources */,
 				4E6F9B8A2AE158900034C7A8 /* RegisterView.swift in Sources */,
 				4E6F9B382AE14A270034C7A8 /* Extensions.swift in Sources */,
 				4E6F9B292AE1494A0034C7A8 /* SwiftNoteApp.swift in Sources */,
@@ -308,6 +325,9 @@
 				4E6F9B402AE14ACC0034C7A8 /* MainViewModel.swift in Sources */,
 				4E6F9B452AE14CC80034C7A8 /* LoginView.swift in Sources */,
 				4E6F9B822AE155860034C7A8 /* LoginHeader.swift in Sources */,
+				4E1DEF9E2AE21E340060F920 /* NewNoteView.swift in Sources */,
+				4E1DEFA62AE223420060F920 /* ProfileView.swift in Sources */,
+				4E1DEF9A2AE21E0E0060F920 /* NoteListItemView.swift in Sources */,
 				4E6F9B432AE14CBE0034C7A8 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
